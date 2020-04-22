@@ -1,5 +1,5 @@
 :root {
-  --background: #f6f6f6;
+  --background: white;
   --p: #747474;
   --h2: #525252;
   --h4: #737373;
@@ -8,7 +8,6 @@
   --placeholder-text: #b8b8b8;
   --underline: #b5dbed;
   --box-shadow: rgba(0, 0, 0, 0.1);
-  --showcase-info: #fbfbfb;
   --showcase-text: #bbbbbb;
   --list-item-contents-text: #a5a5a5;
 }
@@ -200,7 +199,7 @@ p {
 .showcase-info {
   padding: 15px 30px;
   border-radius: 0px 0px 12px 12px;
-  background-color: var(--showcase-info);
+  background-color: white;
 }
 
 .showcase-info > img {
@@ -220,12 +219,15 @@ p {
 /*********** Decorations ***********/
 
 .underline {
-  text-decoration: none;
-  background-image: linear-gradient(
-    180deg,
-    transparent 80%,
-    var(--underline) 0
-  );
+  color: #92cde9;
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 0 4px;
+  border-bottom: 3px solid #57b7dd61;
+}
+
+.underline:hover {
+  cursor: pointer;
 }
 
 .shadowed {
@@ -266,8 +268,16 @@ p {
   margin-bottom: 10px;
 }
 
+.image-sequence.bounded img {
+  height: 80px;
+}
+
 .block-text {
   display: block;
+}
+
+.footnote {
+  font-size: 0.9em;
 }
 
 /*********** Responsive ***********/
