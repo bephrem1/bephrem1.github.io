@@ -25,3 +25,12 @@ const generateBoxShadow = ({
     } ${color}`
   };
 };
+
+export const generateUnderlineStyle = (color: string) => {
+  return {
+    backgroundImage: `linear-gradient(to right, ${color} 75%, transparent 75%)`,
+    backgroundPosition: '0 1.14em',
+    backgroundRepeat: 'repeat-x',
+    backgroundSize: '1000px 3px' // arbitrarily large width for coverage
+  };
+};

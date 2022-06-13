@@ -1,3 +1,76 @@
+export const PAGE_SECTION_MAX_WIDTH = '1040px';
+
+export const COLORS = {
+  TEXT: {
+    GRAY: '#797979',
+    BLACK: '#1A181B'
+  },
+  LINK: {
+    UNHOVERED: '#6392f8'
+  },
+  BLACK: '#000000',
+  WHITE: '#FFFFFF'
+};
+
+export const BORDER_RADII = {
+  SMALL: '4px',
+  MEDIUM: '8px',
+  LARGE: '16px',
+  XLARGE: '40px',
+  CIRCLE: '50%'
+};
+
+export const SPACES = {
+  PADDING: {
+    MICRO: '4px',
+    XSMALL: '8px',
+    SMALL: '16px',
+    MEDIUM: '24px',
+    LARGE: '32px',
+    XLARGE: '64px',
+    XXLARGE: '128px',
+    JUMBO: '256px'
+  },
+  MARGIN: {
+    MICRO: '4px',
+    XSMALL: '8px',
+    SMALL: '16px',
+    MEDIUM: '32px',
+    LARGE: '64px',
+    XLARGE: '128px'
+  },
+  GAP: {
+    MICRO: '4px',
+    XSMALL: '8px',
+    SMALL: '16px',
+    MEDIUM: '32px',
+    LARGE: '64px',
+    XLARGE: '96px',
+    XXLARGE: '128px',
+    JUMBO: '256px'
+  }
+};
+
+export const TEXT_SIZE = {
+  MICRO: '.875rem',
+  XSMALL: '1rem',
+  SMALL: '1.25rem',
+  MEDIUM: '1.563rem',
+  LARGE: '1.953rem',
+  XLARGE: '2.441rem',
+  XXLARGE: '3.052rem',
+  JUMBO: '3.815rem'
+};
+
+export const Z_INDEX = {
+  LAYER_NEG_1: -1,
+  LAYER_1: 1,
+  LAYER_2: 2,
+  LAYER_3: 3,
+  LAYER_4: 4,
+  LAYER_5: 5
+};
+
 export type MarginProps = {
   marginTop?: string | number;
   marginRight?: string | number;
