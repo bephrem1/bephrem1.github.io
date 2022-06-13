@@ -45,7 +45,7 @@ const baseLinkProps = (
 const Link: FunctionComponent<Props> = ({
   type = LinkTypes.internal,
   dest,
-  color = COLORS.LINK.UNHOVERED,
+  color = COLORS.LINK.DEFAULT,
   fontSize,
   bold: isBold = false,
   children,

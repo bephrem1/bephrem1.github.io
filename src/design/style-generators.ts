@@ -34,3 +34,13 @@ export const generateUnderlineStyle = (color: string) => {
     backgroundSize: '1000px 3px' // arbitrarily large width for coverage
   };
 };
+
+export const generateNoninteractiveTextStyle = (): React.CSSProperties => {
+  return {
+    WebkitUserSelect: 'none',
+    KhtmlUserSelect: 'none',
+    MozUserSelect: 'none',
+    msUserSelect: 'none',
+    userSelect: 'none'
+  };
+};

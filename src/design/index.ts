@@ -6,7 +6,7 @@ export const COLORS = {
     BLACK: '#1A181B'
   },
   LINK: {
-    UNHOVERED: '#6392f8'
+    DEFAULT: '#2d67e3'
   },
   BLACK: '#000000',
   WHITE: '#FFFFFF'
@@ -138,3 +138,11 @@ enum PositionProperties {
   inherit = 'inherit'
 }
 export type PositionProperty = keyof typeof PositionProperties;
+
+enum TextAlignProperties {
+  center = 'center',
+  left = 'left',
+  right = 'right',
+  justify = 'justify'
+}
+export type TextAlignProperty = keyof typeof TextAlignProperties;
