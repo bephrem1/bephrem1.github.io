@@ -4,6 +4,8 @@ export const INTERNAL_LINKS = {
   HOME: '/',
 
   HOW_TO_GET_JACKED: '/jacked',
+  WHY_IT_IS_HARD_TO_GET_FIT: '/fit',
+
   A_PROFESSIONAL_VACUUM: '/vacuum',
   DONT_SELL_TOO_EARLY: '/early'
 };

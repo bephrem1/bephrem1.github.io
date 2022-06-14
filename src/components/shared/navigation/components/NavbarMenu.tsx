@@ -1,4 +1,4 @@
-import { SPACES, TEXT_SIZE } from '../../../../design';
+import { COLORS, SPACES, TEXT_SIZE } from '../../../../design';
 
 import { FunctionComponent } from 'react';
 import { INTERNAL_LINKS } from '../../../../global-helpers/urls';
@@ -9,6 +9,8 @@ import Text from '../../elements/Text';
 import View from '../../elements/View';
 
 interface Props {}
+
+const SECTION_MARGIN = '24px';
 
 const NavbarMenu: FunctionComponent<Props> = () => {
   return (
@@ -21,17 +23,35 @@ const NavbarMenu: FunctionComponent<Props> = () => {
       <NavMenuLink type="internal" dest={INTERNAL_LINKS.HOME}>
         About
       </NavMenuLink>
-      <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+      <Spacer direction="vertical" size={SECTION_MARGIN} />
 
+      <Text
+        tag="p"
+        textAlign="right"
+        fontSize={TEXT_SIZE.NANO}
+        color={COLORS.TEXT.GRAY}
+        uninteractive
+      >
+        Health
+      </Text>
       <NavMenuLink type="internal" dest={INTERNAL_LINKS.HOW_TO_GET_JACKED}>
         How To Get Jacked
       </NavMenuLink>
       <Spacer direction="vertical" size={SPACES.GAP.MICRO} />
-      <NavMenuLink type="internal" dest={INTERNAL_LINKS.HOW_TO_GET_JACKED}>
+      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WHY_IT_IS_HARD_TO_GET_FIT}>
         Why It Is Hard To Get Fit
       </NavMenuLink>
-      <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+      <Spacer direction="vertical" size={SECTION_MARGIN} />
 
+      <Text
+        tag="p"
+        textAlign="right"
+        fontSize={TEXT_SIZE.NANO}
+        color={COLORS.TEXT.GRAY}
+        uninteractive
+      >
+        Wealth & Career
+      </Text>
       <NavMenuLink type="internal" dest={INTERNAL_LINKS.A_PROFESSIONAL_VACUUM}>
         A Professional Vacuum
       </NavMenuLink>
@@ -39,8 +59,22 @@ const NavbarMenu: FunctionComponent<Props> = () => {
       <NavMenuLink type="internal" dest={INTERNAL_LINKS.DONT_SELL_TOO_EARLY}>
         Don’t Sell Too Early
       </NavMenuLink>
+      <Spacer direction="vertical" size={SECTION_MARGIN} />
 
-      <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+      <Text
+        tag="p"
+        textAlign="right"
+        fontSize={TEXT_SIZE.NANO}
+        color={COLORS.TEXT.GRAY}
+        uninteractive
+      >
+        Love & Relationships
+      </Text>
+      <Text tag="p" textAlign="right" fontSize={TEXT_SIZE.NANO} uninteractive>
+        ...
+      </Text>
+
+      <Spacer direction="vertical" size={SECTION_MARGIN} />
       <SocialLinks />
     </View>
   );

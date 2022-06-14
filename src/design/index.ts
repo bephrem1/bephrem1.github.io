@@ -52,6 +52,7 @@ export const SPACES = {
 };
 
 export const TEXT_SIZE = {
+  NANO: '0.75rem',
   MICRO: '.875rem',
   XSMALL: '1rem',
   SMALL: '1.25rem',
