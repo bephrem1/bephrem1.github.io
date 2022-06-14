@@ -1,4 +1,4 @@
-export const PAGE_SECTION_MAX_WIDTH = '1040px';
+export const PAGE_SECTION_MAX_WIDTH = '800px';
 
 export const COLORS = {
   TEXT: {
