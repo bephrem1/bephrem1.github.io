@@ -8,6 +8,10 @@ export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/bephrem1',
   SOCIAL: {
     TWITTER: 'https://twitter.com/notbenyam'
+  },
+  BACKTOBACKSWE: {
+    WEBSITE: 'https://backtobackswe.com',
+    YOUTUBE: 'https://www.youtube.com/c/BackToBackSWE'
   }
 };
 
