@@ -1,12 +1,17 @@
 import { NextRouter } from 'next/router';
 
 export const INTERNAL_LINKS = {
-  HOME: '/'
+  HOME: '/',
+
+  HOW_TO_GET_JACKED: '/jacked',
+  A_PROFESSIONAL_VACUUM: '/vacuum',
+  DONT_SELL_TOO_EARLY: '/early'
 };
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/bephrem1',
   SOCIAL: {
+    GITHUB: 'https://github.com/bephrem1',
+    INSTAGRAM: 'https://www.instagram.com/bephrem_',
     TWITTER: 'https://twitter.com/notbenyam'
   },
   BACKTOBACKSWE: {

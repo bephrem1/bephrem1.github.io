@@ -34,6 +34,7 @@ const baseLinkProps = (
   return {
     style: {
       ...style,
+      width: 'fit-content',
       ...(color ? { color } : {}),
       ...(isBold ? { fontWeight: 700 /* 'bold' */ } : {}),
       ...(underline ? generateUnderlineStyle(color) : {}),

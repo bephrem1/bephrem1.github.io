@@ -3,6 +3,7 @@ import { PAGE_SECTION_MAX_WIDTH, SPACES } from '../../../design';
 import { EXTERNAL_LINKS } from '../../../global-helpers/urls';
 import { FunctionComponent } from 'react';
 import Link from '../../shared/elements/Link';
+import Navbar from '../../shared/navigation/Navbar';
 import Spacer from '../../shared/layout/Spacer';
 import Text from '../../shared/elements/Text';
 import View from '../../shared/elements/View';
@@ -18,6 +19,9 @@ const Home: FunctionComponent<Props> = () => {
       centerItemsHorizontally
     >
       <View direction="vertical" maxWidth={PAGE_SECTION_MAX_WIDTH}>
+        <Navbar />
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
         <Text tag="p">
           Hi, my name is Benyam Ephrem. I am an Ethiopian-American software engineer & internet
           teacher.
