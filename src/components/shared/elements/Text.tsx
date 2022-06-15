@@ -28,7 +28,7 @@ interface Props {
   style?: React.CSSProperties;
   onClick?: () => void;
 
-  children: string;
+  children: React.ReactNode | Array<React.ReactNode>;
 }
 
 const Text: FunctionComponent<Props> = ({

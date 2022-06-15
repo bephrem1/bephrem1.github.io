@@ -1,8 +1,8 @@
-import { EXTERNAL_LINKS } from '../../global-helpers/urls';
+import { EXTERNAL_LINKS } from '../../../../global-helpers/urls';
 import { FunctionComponent } from 'react';
-import Image from './elements/Image';
-import Link from './elements/Link';
-import View from './elements/View';
+import Image from '../../elements/Image';
+import Link from '../../elements/Link';
+import View from '../../elements/View';
 
 export interface Props {}
 
@@ -23,6 +23,15 @@ const SocialLinks: FunctionComponent<Props> = () => {
         </Link>
         <Link type="external" dest={EXTERNAL_LINKS.SOCIAL.GITHUB} openInNewWindow>
           <Image name="social/github" width={ICON_SIZE} height={ICON_SIZE} ext="svg" alt="Github" />
+        </Link>
+        <Link type="external" dest={EXTERNAL_LINKS.SOCIAL.LINKEDIN} openInNewWindow>
+          <Image
+            name="social/linkedin"
+            width={ICON_SIZE}
+            height={ICON_SIZE}
+            ext="svg"
+            alt="LinkedIn"
+          />
         </Link>
         <Link type="external" dest={EXTERNAL_LINKS.SOCIAL.INSTAGRAM} openInNewWindow>
           <Image

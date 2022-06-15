@@ -3,14 +3,14 @@ import { COLORS, SPACES, TEXT_SIZE } from '../../../../design';
 import { FunctionComponent } from 'react';
 import { INTERNAL_LINKS } from '../../../../global-helpers/urls';
 import Link from '../../elements/Link';
-import SocialLinks from '../../SocialLinks';
+import SocialLinks from './SocialLinks';
 import Spacer from '../../layout/Spacer';
 import Text from '../../elements/Text';
 import View from '../../elements/View';
 
 interface Props {}
 
-const SECTION_MARGIN = '24px';
+const SectionSpacer = <Spacer direction="vertical" size="24px" />;
 
 const NavbarMenu: FunctionComponent<Props> = () => {
   return (
@@ -23,7 +23,7 @@ const NavbarMenu: FunctionComponent<Props> = () => {
       <NavMenuLink type="internal" dest={INTERNAL_LINKS.HOME}>
         About
       </NavMenuLink>
-      <Spacer direction="vertical" size={SECTION_MARGIN} />
+      {SectionSpacer}
 
       <Text
         tag="p"
@@ -34,14 +34,14 @@ const NavbarMenu: FunctionComponent<Props> = () => {
       >
         Health
       </Text>
-      <NavMenuLink type="internal" dest={INTERNAL_LINKS.HOW_TO_GET_JACKED}>
+      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WRITING.HOW_TO_GET_JACKED}>
         How To Get Jacked
       </NavMenuLink>
       <Spacer direction="vertical" size={SPACES.GAP.MICRO} />
-      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WHY_IT_IS_HARD_TO_GET_FIT}>
+      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WRITING.WHY_IT_IS_HARD_TO_GET_FIT}>
         Why It Is Hard To Get Fit
       </NavMenuLink>
-      <Spacer direction="vertical" size={SECTION_MARGIN} />
+      {SectionSpacer}
 
       <Text
         tag="p"
@@ -52,14 +52,14 @@ const NavbarMenu: FunctionComponent<Props> = () => {
       >
         Wealth & Career
       </Text>
-      <NavMenuLink type="internal" dest={INTERNAL_LINKS.A_PROFESSIONAL_VACUUM}>
+      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WRITING.A_PROFESSIONAL_VACUUM}>
         A Professional Vacuum
       </NavMenuLink>
       <Spacer direction="vertical" size={SPACES.GAP.MICRO} />
-      <NavMenuLink type="internal" dest={INTERNAL_LINKS.DONT_SELL_TOO_EARLY}>
+      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WRITING.DONT_SELL_TOO_EARLY}>
         Don’t Sell Too Early
       </NavMenuLink>
-      <Spacer direction="vertical" size={SECTION_MARGIN} />
+      {SectionSpacer}
 
       <Text
         tag="p"
@@ -74,7 +74,7 @@ const NavbarMenu: FunctionComponent<Props> = () => {
         ...
       </Text>
 
-      <Spacer direction="vertical" size={SECTION_MARGIN} />
+      {SectionSpacer}
       <SocialLinks />
     </View>
   );

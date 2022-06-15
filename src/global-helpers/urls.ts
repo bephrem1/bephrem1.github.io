@@ -2,24 +2,34 @@ import { NextRouter } from 'next/router';
 
 export const INTERNAL_LINKS = {
   HOME: '/',
+  WRITING: {
+    // health
+    HOW_TO_GET_JACKED: '/jacked',
+    WHY_IT_IS_HARD_TO_GET_FIT: '/fit',
 
-  HOW_TO_GET_JACKED: '/jacked',
-  WHY_IT_IS_HARD_TO_GET_FIT: '/fit',
+    // wealth & career
+    A_PROFESSIONAL_VACUUM: '/vacuum',
+    DONT_SELL_TOO_EARLY: '/early'
 
-  A_PROFESSIONAL_VACUUM: '/vacuum',
-  DONT_SELL_TOO_EARLY: '/early'
+    // love & relationships
+    // ...
+  }
 };
 
 export const EXTERNAL_LINKS = {
   SOCIAL: {
     GITHUB: 'https://github.com/bephrem1',
     INSTAGRAM: 'https://www.instagram.com/bephrem_',
+    LINKEDIN: 'https://linkedin.com/in/bephrem',
     TWITTER: 'https://twitter.com/notbenyam'
   },
   BACKTOBACKSWE: {
     WEBSITE: 'https://backtobackswe.com',
     YOUTUBE: 'https://www.youtube.com/c/BackToBackSWE'
-  }
+  },
+
+  MARYLAND_STATE_WIKI: 'https://en.wikipedia.org/wiki/Maryland',
+  UNIVERSITY_OF_MARYLAND_WIKI: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park'
 };
 
 export const getCurrentUrl = (router: NextRouter) => {
