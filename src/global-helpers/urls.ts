@@ -29,7 +29,9 @@ export const EXTERNAL_LINKS = {
   },
 
   MARYLAND_STATE_WIKI: 'https://en.wikipedia.org/wiki/Maryland',
-  UNIVERSITY_OF_MARYLAND_WIKI: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park'
+  UNIVERSITY_OF_MARYLAND_WIKI: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
+
+  MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in'
 };
 
 export const getCurrentUrl = (router: NextRouter) => {
