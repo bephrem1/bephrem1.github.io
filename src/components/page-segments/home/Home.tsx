@@ -121,7 +121,7 @@ const Home: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
 
         <Text tag="h6" bold>
-          Getting Jacked
+          Getting Jacked (Dec. ’21 - Summer ’22)
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.XSMALL} />
         <Text tag="p">
