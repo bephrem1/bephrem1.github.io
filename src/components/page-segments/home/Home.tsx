@@ -25,11 +25,15 @@ const Home: FunctionComponent<Props> = () => {
             Hi, my name is Benyam Ephrem. I am an Ethiopian-American software engineer & internet
             teacher. I grew up in{' '}
           </Text>
-          <Link type="external" dest={EXTERNAL_LINKS.MARYLAND_STATE_WIKI} openInNewWindow>
+          <Link type="external" dest={EXTERNAL_LINKS.WIKIPEDIA.MARYLAND_STATE} openInNewWindow>
             Maryland, USA
           </Link>
           <Text tag="p"> & studied Computer Science at the </Text>
-          <Link type="external" dest={EXTERNAL_LINKS.UNIVERSITY_OF_MARYLAND_WIKI} openInNewWindow>
+          <Link
+            type="external"
+            dest={EXTERNAL_LINKS.WIKIPEDIA.UNIVERSITY_OF_MARYLAND}
+            openInNewWindow
+          >
             University of Maryland
           </Link>
           <Text tag="p"> (’21).</Text>

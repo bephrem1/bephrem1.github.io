@@ -108,6 +108,10 @@ hr {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+}
+
 /* Hide default form UI */
 
 input[type='file'] {

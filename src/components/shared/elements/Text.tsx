@@ -21,6 +21,7 @@ interface Props {
   float?: FloatProperty;
   textAlign?: TextAlignProperty;
   color?: string;
+  backgroundColor?: string;
   fontSize?: string;
   lineHeight?: string;
   bold?: boolean;
@@ -37,6 +38,7 @@ const Text: FunctionComponent<Props> = ({
   float,
   textAlign,
   color = COLORS.TEXT.BLACK,
+  backgroundColor,
   fontSize,
   lineHeight,
   bold = false,
@@ -50,6 +52,7 @@ const Text: FunctionComponent<Props> = ({
     ...(!!onClick ? { onClick } : {}),
     style: {
       color,
+      backgroundColor,
       display,
       ...(float ? { float } : {}),
       ...(fontSize ? { fontSize } : {}),

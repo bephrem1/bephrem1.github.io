@@ -8,6 +8,8 @@ export const COLORS = {
   LINK: {
     DEFAULT: '#2d67e3'
   },
+
+  HIGHLIGHT_YELLOW: '#FFFB01',
   BLACK: '#000000',
   WHITE: '#FFFFFF'
 };

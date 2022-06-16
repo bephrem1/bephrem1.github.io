@@ -27,10 +27,12 @@ export const EXTERNAL_LINKS = {
     WEBSITE: 'https://backtobackswe.com',
     YOUTUBE: 'https://www.youtube.com/c/BackToBackSWE'
   },
+  WIKIPEDIA: {
+    MARYLAND_STATE: 'https://en.wikipedia.org/wiki/Maryland',
+    UNIVERSITY_OF_MARYLAND: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
+    PROGRESSIVE_OVERLOAD: 'https://en.wikipedia.org/wiki/Progressive_overload'
+  },
   TWITTER: 'https://twitter.com',
-
-  MARYLAND_STATE_WIKI: 'https://en.wikipedia.org/wiki/Maryland',
-  UNIVERSITY_OF_MARYLAND_WIKI: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
 
   MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in'
 };
