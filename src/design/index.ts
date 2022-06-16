@@ -63,6 +63,18 @@ export const TEXT_SIZE = {
   JUMBO: '3.815rem'
 };
 
+export const LINE_HEIGHT = {
+  NANO: '0.75rem',
+  MICRO: '.875rem',
+  XSMALL: '1rem',
+  SMALL: '1.25rem',
+  MEDIUM: '1.563rem',
+  LARGE: '1.953rem',
+  XLARGE: '2.441rem',
+  XXLARGE: '3.052rem',
+  JUMBO: '3.815rem'
+};
+
 export const Z_INDEX = {
   LAYER_NEG_1: -1,
   LAYER_1: 1,

@@ -9,10 +9,10 @@ export const INTERNAL_LINKS = {
 
     // wealth & career
     A_PROFESSIONAL_VACUUM: '/vacuum',
-    DONT_SELL_TOO_EARLY: '/early'
+    DONT_SELL_TOO_EARLY: '/early',
 
     // love & relationships
-    // ...
+    QUITTING_SOCIAL_DRINKING: '/drinking'
   }
 };
 
@@ -27,6 +27,7 @@ export const EXTERNAL_LINKS = {
     WEBSITE: 'https://backtobackswe.com',
     YOUTUBE: 'https://www.youtube.com/c/BackToBackSWE'
   },
+  TWITTER: 'https://twitter.com',
 
   MARYLAND_STATE_WIKI: 'https://en.wikipedia.org/wiki/Maryland',
   UNIVERSITY_OF_MARYLAND_WIKI: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',

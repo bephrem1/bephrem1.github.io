@@ -70,9 +70,10 @@ const NavbarMenu: FunctionComponent<Props> = () => {
       >
         Love & Relationships
       </Text>
-      <Text tag="p" textAlign="right" fontSize={TEXT_SIZE.NANO} uninteractive>
-        ...
-      </Text>
+      <Spacer direction="vertical" size={SPACES.GAP.MICRO} />
+      <NavMenuLink type="internal" dest={INTERNAL_LINKS.WRITING.QUITTING_SOCIAL_DRINKING}>
+        Quitting Social Drinking
+      </NavMenuLink>
 
       {SectionSpacer}
       <SocialLinks />
