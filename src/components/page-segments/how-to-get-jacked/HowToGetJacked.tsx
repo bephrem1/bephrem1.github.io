@@ -1,19 +1,29 @@
 import { LINE_HEIGHT, SPACES, TEXT_SIZE } from '../../../design';
 import React, { FunctionComponent } from 'react';
+import { getOpenGraphMetaTags, getSEOMetaTags } from '../../../global-helpers/page-headers';
 
 import Head from 'next/head';
 import Spacer from '../../shared/layout/Spacer';
 import StandardLayout from '../StandardLayout';
 import Text from '../../shared/elements/Text';
+import { useRouter } from 'next/router';
 
 interface Props {}
 
 const HowToGetJacked: FunctionComponent<Props> = () => {
+  const router = useRouter();
+
   return (
     <React.Fragment>
       <Head>
-        <title>Benyam Ephrem | How To Get Jacked</title>
-        <meta key="description" name="description" content="How To Get Jacked" />
+        {getSEOMetaTags({
+          title: 'Benyam Ephrem | How To Get Jacked',
+          description: 'How To Get Jacked - A Simple Guide.'
+        })}
+        {getOpenGraphMetaTags(router, {
+          title: 'How To Get Jacked',
+          description: 'How To Get Jacked - A Simple Guide.'
+        })}
       </Head>
       <StandardLayout>
         <Text tag="h3" bold>
