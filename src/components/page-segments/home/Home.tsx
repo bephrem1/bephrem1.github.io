@@ -20,24 +20,22 @@ const Home: FunctionComponent<Props> = () => {
         <meta key="description" name="description" content="About Benyam Ephrem." />
       </Head>
       <StandardLayout>
-        <span>
-          <Text tag="p">
-            Hi, my name is Benyam Ephrem. I am an Ethiopian-American software engineer & internet
-            teacher. I grew up in{' '}
-          </Text>
+        <Text tag="p">
+          Hi, my name is Benyam Ephrem. I am an Ethiopian-American software engineer & internet
+          teacher. I grew up in{' '}
           <Link type="external" dest={EXTERNAL_LINKS.WIKIPEDIA.MARYLAND_STATE} openInNewWindow>
             Maryland, USA
-          </Link>
-          <Text tag="p"> & studied Computer Science at the </Text>
+          </Link>{' '}
+          & studied Computer Science at the{' '}
           <Link
             type="external"
             dest={EXTERNAL_LINKS.WIKIPEDIA.UNIVERSITY_OF_MARYLAND}
             openInNewWindow
           >
             University of Maryland
-          </Link>
-          <Text tag="p"> (’21).</Text>
-        </span>
+          </Link>{' '}
+          (’21).
+        </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           Programming & engineering is my core skillset. But I like thinking about, and working on
@@ -82,30 +80,27 @@ const Home: FunctionComponent<Props> = () => {
           thousands of people online, and helped thousands of engineers get jobs.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <span>
-          <Text tag="p">The company ended up being acquired in November 2020 (that’s a </Text>
+        <Text tag="p">
+          The company ended up being acquired in November 2020 (that’s a{' '}
           <Link type="internal" dest={INTERNAL_LINKS.WRITING.DONT_SELL_TOO_EARLY} openInNewWindow>
             whole other topic
           </Link>
-          <Text tag="p">).</Text>
-        </span>
+          ).
+        </Text>
         <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
 
         <Text tag="h6" bold>
           Twitter (’19 - ’22)
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <span>
-          <Text tag="p">In 2019 I interned at Twitter as a web engineer on the </Text>
+        <Text tag="p">
+          In 2019 I interned at Twitter as a web engineer on the{' '}
           <Link type="external" dest={EXTERNAL_LINKS.TWITTER} openInNewWindow>
             twitter.com
-          </Link>
-          <Text tag="p">
-            {' '}
-            team. It was my first professional programming experience and it changed the course of
-            my career & skillset.
-          </Text>
-        </span>
+          </Link>{' '}
+          team. It was my first professional programming experience and it changed the course of my
+          career & skillset.
+        </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">I learned how good very good programmers are.</Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
@@ -159,10 +154,8 @@ const Home: FunctionComponent<Props> = () => {
           getting exceptionally fit as a normal person.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <span>
-          <Text tag="p">
-            I moved from Maryland to Washington, DC in March to live with my college friend{' '}
-          </Text>
+        <Text tag="p">
+          I moved from Maryland to Washington, DC in March to live with my college friend{' '}
           <Link
             type="external"
             dest={EXTERNAL_LINKS.MICHAEL_WEINBERGER_PERSONAL_SITE}
@@ -170,23 +163,21 @@ const Home: FunctionComponent<Props> = () => {
           >
             Michael
           </Link>
-          <Text tag="p">
-            . As summer kicked in I focused on losing fat while maintaining lean mass (which I had
-            also never done successfully).
-          </Text>
-        </span>
+          . As summer kicked in I focused on losing fat while maintaining lean mass (which I had
+          also never done successfully).
+        </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           As I write this, I am in the best shape of my life (both body composition & cardiovascular
           fitness) and on the lower-to-mid range of what one would socially consider "jacked".
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <span>
-          <Text tag="p">I document my findings in "</Text>
+        <Text tag="p">
+          I document my findings in "
           <Link type="internal" dest={INTERNAL_LINKS.WRITING.HOW_TO_GET_JACKED} openInNewWindow>
             How To Get Jacked
           </Link>
-          <Text tag="p">" & "</Text>
+          " & "
           <Link
             type="internal"
             dest={INTERNAL_LINKS.WRITING.WHY_IT_IS_HARD_TO_GET_FIT}
@@ -194,8 +185,8 @@ const Home: FunctionComponent<Props> = () => {
           >
             Why It Is Hard To Get Fit
           </Link>
-          <Text tag="p">".</Text>
-        </span>
+          ".
+        </Text>
       </StandardLayout>
     </React.Fragment>
   );

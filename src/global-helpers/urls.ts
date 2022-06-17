@@ -32,7 +32,9 @@ export const EXTERNAL_LINKS = {
     UNIVERSITY_OF_MARYLAND: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
     PROGRESSIVE_OVERLOAD: 'https://en.wikipedia.org/wiki/Progressive_overload'
   },
+
   TWITTER: 'https://twitter.com',
+  MYFITNESSPAL: 'https://www.myfitnesspal.com/',
 
   MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in'
 };
