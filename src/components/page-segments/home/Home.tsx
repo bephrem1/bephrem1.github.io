@@ -169,7 +169,8 @@ const Home: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           As I write this, I am in the best shape of my life (both body composition & cardiovascular
-          fitness) and on the lower-to-mid range of what one would socially consider "jacked".
+          fitness) and on the lower-to-mid range of what one would socially consider "jacked". It
+          has completely transformed my self-esteem & how I perceive myself.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
