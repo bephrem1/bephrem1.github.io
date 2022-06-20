@@ -31,7 +31,12 @@ export const EXTERNAL_LINKS = {
     MARYLAND_STATE: 'https://en.wikipedia.org/wiki/Maryland',
     UNIVERSITY_OF_MARYLAND: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
     PROGRESSIVE_OVERLOAD: 'https://en.wikipedia.org/wiki/Progressive_overload',
-    SOCIAL_DRINKING: 'https://en.wikipedia.org/wiki/Drinking_culture#Social_drinking'
+    SOCIAL_DRINKING: 'https://en.wikipedia.org/wiki/Drinking_culture#Social_drinking',
+    ALCOHOL: {
+      TOXICITY: 'https://en.wikipedia.org/wiki/Alcohol_(drug)#Toxicity',
+      SHORT_TERM_EFFECTS: 'https://en.wikipedia.org/wiki/Short-term_effects_of_alcohol_consumption',
+      LONG_TERM_EFFECTS: 'https://en.wikipedia.org/wiki/Long-term_effects_of_alcohol'
+    }
   },
 
   TWITTER: 'https://twitter.com',
