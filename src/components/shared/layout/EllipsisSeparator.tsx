@@ -7,7 +7,8 @@ import View from '../elements/View';
 interface Props {}
 
 const dotSize = '3px';
-const dotGap = SPACES.GAP.XSMALL;
+const dotGap = SPACES.GAP.MICRO;
+const dotColor = COLORS.BLACK;
 
 const EllipsisSeparator: FunctionComponent<Props> = () => {
   return (
@@ -19,31 +20,30 @@ const EllipsisSeparator: FunctionComponent<Props> = () => {
       centerItemsVertically
     >
       <View direction="horizontal" centerItemsVertically>
-        <View
-          direction="horizontal"
-          borderRadius={BORDER_RADII.CIRCLE}
-          width={dotSize}
-          height={dotSize}
-          backgroundColor={COLORS.BLACK}
-        />
+        <Dot size={dotSize} color={dotColor} />
         <Spacer direction="horizontal" size={dotGap} />
-        <View
-          direction="horizontal"
-          borderRadius={BORDER_RADII.CIRCLE}
-          width={dotSize}
-          height={dotSize}
-          backgroundColor={COLORS.BLACK}
-        />
+        <Dot size={dotSize} color={dotColor} />
         <Spacer direction="horizontal" size={dotGap} />
-        <View
-          direction="horizontal"
-          borderRadius={BORDER_RADII.CIRCLE}
-          width={dotSize}
-          height={dotSize}
-          backgroundColor={COLORS.BLACK}
-        />
+        <Dot size={dotSize} color={dotColor} />
       </View>
     </View>
+  );
+};
+
+interface DotProps {
+  size: string;
+  color: string;
+}
+
+const Dot: FunctionComponent<DotProps> = ({ color, size }) => {
+  return (
+    <View
+      direction="horizontal"
+      borderRadius={BORDER_RADII.CIRCLE}
+      width={size}
+      height={size}
+      backgroundColor={color}
+    />
   );
 };
 
