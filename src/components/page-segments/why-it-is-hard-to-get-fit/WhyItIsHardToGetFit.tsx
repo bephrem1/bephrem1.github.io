@@ -33,8 +33,8 @@ const WhyItIsHardToGetFit: FunctionComponent<Props> = () => {
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p" fontSize={TEXT_SIZE.MICRO}>
-          The biggest barrier to getting very fit is mastering one's psychology around fitness, the
-          biggest enabler is establishing consistent habit.
+          The biggest barrier to getting very fit is one's psychology around fitness, the biggest
+          enabler is establishing consistent habit.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
