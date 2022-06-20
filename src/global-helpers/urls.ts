@@ -30,7 +30,8 @@ export const EXTERNAL_LINKS = {
   WIKIPEDIA: {
     MARYLAND_STATE: 'https://en.wikipedia.org/wiki/Maryland',
     UNIVERSITY_OF_MARYLAND: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
-    PROGRESSIVE_OVERLOAD: 'https://en.wikipedia.org/wiki/Progressive_overload'
+    PROGRESSIVE_OVERLOAD: 'https://en.wikipedia.org/wiki/Progressive_overload',
+    SOCIAL_DRINKING: 'https://en.wikipedia.org/wiki/Drinking_culture#Social_drinking'
   },
 
   TWITTER: 'https://twitter.com',
