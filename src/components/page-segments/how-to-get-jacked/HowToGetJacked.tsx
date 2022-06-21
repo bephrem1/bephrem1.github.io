@@ -328,11 +328,6 @@ const HowToGetJacked: FunctionComponent<Props> = () => {
             just take away their properties & characteristics.
           </Text>
         </List>
-        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
-
-        <Text tag="p" bold>
-          💪🏾
-        </Text>
       </StandardLayout>
     </React.Fragment>
   );

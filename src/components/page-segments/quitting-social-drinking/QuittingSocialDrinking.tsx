@@ -533,11 +533,6 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">If you can do that, you have won.</Text>
-        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
-
-        <Text tag="p" bold>
-          🍻
-        </Text>
       </StandardLayout>
     </React.Fragment>
   );
