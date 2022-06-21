@@ -272,7 +272,188 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
           Psychological Growth Opportunity-Cost
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <Text tag="p">lorem.</Text>
+        <Text tag="p">
+          Some drink socially because it curbs general anxiety. Anxiety can range from mild
+          reluctance to interact to a full shutdown state (which I would find myself in sometimes,
+          likely due to past childhood traumas). Alcohol gives you a state tap to not consciously
+          face anxiety triggering situations and be your best social self.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          The growth is where the healthy pain is at. This is a fact of life. What you fear most
+          socially is where you will trigger growth as a person.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I never understood people mentioning that alcohol can become a “crutch” socially. It only
+          takes 1-2 nights out sober for it to really hit you how much of your psyche you just
+          haven’t faced or remolded.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Social people drink just because it is more fun. People using alcohol as a crutch drink
+          because it shifts them up the normal curve in social acuity. But this social improvement,
+          though real and lesson-providing, does not last.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Alcohol does not create, it masks. Alcohol was your crutch, it got you loose, it covered
+          up what was dragging you back.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          You cannot step into your fullest confident self, healed of your inner issues, always
+          drinking to socialize. Only when you can face yourself fully, and connect with those
+          around you as your true self, will you secure longterm personal growth and heal your inner
+          dilemmas.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h5" bold>
+          A Self-Inquiry
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          So what is it that is dragging you back? Why can’t you survive in a non-sober environment
+          sober? Do you need alcohol to socialize?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          You do not need alcohol to socialize. Socialization & social events will be more fun with
+          2-3+ drinks, though. Absolutely.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">I want to ask myself some questions that will lead us deeper:</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          Why do you drink socially?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I drink socially because it makes me a more fun & open person in social situations (that
+          involve drinking). I am an introvert and like being in my thoughts, analyzing, breaking
+          things down. Though, I find myself an able social interactor most of the time. But,
+          sometimes I like going into my head and staying there, which is bad for social events.
+          Sometimes I perceive my thoughts as more interesting than anything going on around me. At
+          my worst, in certain social situations, I will shutdown from anxiety entirely and talk to
+          no one. This has been happening less and less as my self-esteem has risen.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I also think that many cannot fathom going out with 0 drinks in them (especially younger
+          people & college students + college grads), it is like jumping into the "deep-end" of the
+          pool immediately. There is also the awkward feeling of having no drinks in your hand at a
+          function/venue. It is just out of the norms to just not drink at all in these situations.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          Why are you quiet around new people?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I just get anxious about initially meeting someone new. I have to be proactive and
+          introduce myself, get to know them, get them to know me. It is an exchange that has a
+          level of overhead (though it is unhealthy to see meeting new people in that way). I can
+          project me saying “hi” and just blowing up in the interaction (especially if the new
+          person is in a group of other new people). I am afraid what the other person will think of
+          me, especially if it is a girl I like. Again, I strongly believe that this fear has an
+          inverse correlation to your self-esteem.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          Could you imagine new interactions at social events going smoothly sober?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Yes I can imagine that, it is just that the irrational fear is the very thing that trips
+          you up. With 1-2 drinks, you are much looser, calmer, and it is easier to just not deal
+          with these annoying fears. Sometimes I am really confident, sometimes not. I could do fine
+          meeting new people at parties sober, it probably is just a matter of laziness and not even
+          wanting to try the harder path.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          Can you dance at social events sober?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Funny question, but sure. I can sway and move, but in the back of my head I really am
+          afraid of what people will think of me. Do I look stupid? Do I look cool? Maybe it is a
+          proxy fear to wanting to be accepted. But I can dance sober, of course. I've gotten much
+          better recently as I've been going out to clubs with house music.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          Does interacting with large groups bother you?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Yes, I don’t really know how to find my position unless I know one or two people in the
+          group. Maybe that is my issue, I just have to be more open, I have to say hi to people, be
+          a present figure that contributes to the group’s dynamic. Anxiety really is the only
+          barrier. The anxiety itself causes what the anxiety fears.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          So you need to work on openness & your energy?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Yes, when I am on a roll socially I am energetic and I don’t go back into my shell. When
+          around good friends I genuinely like I am happy and naturally “in-social-state”. I find we
+          all have an in-built capacity to socialize, we just impede it. We all have things that
+          interest us in the world to talk about. When around good people I just elevate and elevate
+          until nothing bothers me. Strangers can make me come back down into my shell when I worry
+          how I will meet them.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <Text tag="p" bold>
+          Why are you closed off sometimes? Why would your energy be low?
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          It can be a lot of factors. This is going very far back, but I had an emotionally
+          traumatic childhood where I feel I didn't get enough love, plus other emotionally
+          traumatic events, and that subsequently has made me a closed off person. I had chronically
+          low self-esteem and just didn't want to interact with others, I had very low self-worth.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you feel that way for long spans of time, you will be a lower energy person. I am
+          healing from all this though. You have to find reasons why you are interesting, notable,
+          and awesome, then share that with the world (if you can't find reasons, go make reasons
+          happen).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          So it seems that I just need to focus on increasing my self-esteem further, work on the
+          mechanics of better socialization, and find reasons why I love my life.
+        </Text>
+
+        <EllipsisSeparator />
+
+        <Text tag="p">
+          This is only a partial inner inquiry, but going through this thought process has led me to
+          realize that everything drinking offers as a temporary patch for can be solved through
+          life improvement and more inner emotional work.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I encourage other people who drink to socialize to run an inner inquiry. Your answers may
+          surprise you.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h5" bold>
+          A Different You
+        </Text>
       </StandardLayout>
     </React.Fragment>
   );
