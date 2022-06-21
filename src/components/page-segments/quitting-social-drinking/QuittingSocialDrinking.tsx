@@ -406,8 +406,8 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           Yes, when I am on a roll socially I am energetic and I don’t go back into my shell. When
-          around good friends I genuinely like I am happy and naturally “in-social-state”. I find we
-          all have an in-built capacity to socialize, we just impede it. We all have things that
+          around good friends I genuinely like, I am happy and naturally “in-social-state”. I find
+          we all have an in-built capacity to socialize, we just impede it. We all have things that
           interest us in the world to talk about. When around good people I just elevate and elevate
           until nothing bothers me. Strangers can make me come back down into my shell when I worry
           how I will meet them.
