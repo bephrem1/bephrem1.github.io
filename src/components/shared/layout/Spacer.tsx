@@ -11,7 +11,7 @@ const Spacer: FunctionComponent<Props> = ({ direction = 'vertical', size = SPACE
   const sizeStyle =
     direction === 'vertical' ? { height: size, width: '100%' } : { height: '100%', width: size };
 
-  return <View {...sizeStyle} />;
+  return <View {...sizeStyle} uninteractive />;
 };
 
 export default Spacer;

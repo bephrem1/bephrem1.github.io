@@ -1,7 +1,7 @@
 import { COLORS, DisplayProperty, FloatProperty, TextAlignProperty } from '../../../design';
 
 import { FunctionComponent } from 'react';
-import { generateNoninteractiveTextStyle } from '../../../design/style-generators';
+import { generateNoninteractiveStyle } from '../../../design/style-generators';
 
 enum TextElements {
   h1 = 'h1',
@@ -58,7 +58,7 @@ const Text: FunctionComponent<Props> = ({
       ...(fontSize ? { fontSize } : {}),
       ...(lineHeight ? { lineHeight } : {}),
       ...(textAlign ? { textAlign } : {}),
-      ...(uninteractive ? generateNoninteractiveTextStyle() : {}),
+      ...(uninteractive ? generateNoninteractiveStyle() : {}),
       ...(!!onClick ? { cursor: 'pointer' } : {}),
       ...style
     }

@@ -318,11 +318,6 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
           sober? Do you need alcohol to socialize?
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <Text tag="p">
-          You do not need alcohol to socialize. Socialization & social events will be more fun with
-          2-3+ drinks, though. Absolutely.
-        </Text>
-        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">I want to ask myself some questions that will lead us deeper:</Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
 

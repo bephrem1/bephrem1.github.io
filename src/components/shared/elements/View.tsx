@@ -10,8 +10,10 @@ import {
   PositioningProps
 } from '../../../design';
 import React, { FunctionComponent, Ref } from 'react';
-
-import { generateOutlineStyle } from '../../../design/style-generators';
+import {
+  generateNoninteractiveStyle,
+  generateOutlineStyle
+} from '../../../design/style-generators';
 
 export interface ViewProps extends MarginProps, PaddingProps, PositioningProps {
   id?: string;
@@ -55,6 +57,7 @@ export interface ViewProps extends MarginProps, PaddingProps, PositioningProps {
   flexBasis?: string | number;
 
   cursorOnHover?: boolean;
+  uninteractive?: boolean;
   enableFocusing?: boolean;
   onClick?: () => void;
   onBlur?: (event: React.FocusEvent<HTMLDivElement>) => void;
@@ -103,6 +106,7 @@ const View: FunctionComponent<ViewProps> = React.forwardRef(
       flexBasis,
 
       cursorOnHover,
+      uninteractive,
       enableFocusing,
       onClick,
       onBlur,
@@ -213,6 +217,7 @@ const View: FunctionComponent<ViewProps> = React.forwardRef(
           ...(marginY ? { marginTop: marginY, marginBottom: marginY } : {}),
 
           ...(cursorOnHover || !!onClick ? { cursor: 'pointer' } : {}),
+          ...(uninteractive ? generateNoninteractiveStyle() : {}),
           ...style
         }}
         {...(onClick ? { onClick } : {})}

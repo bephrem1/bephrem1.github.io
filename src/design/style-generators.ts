@@ -35,7 +35,7 @@ export const generateUnderlineStyle = (color: string) => {
   };
 };
 
-export const generateNoninteractiveTextStyle = (): React.CSSProperties => {
+export const generateNoninteractiveStyle = (): React.CSSProperties => {
   return {
     WebkitUserSelect: 'none',
     KhtmlUserSelect: 'none',
