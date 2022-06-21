@@ -94,9 +94,9 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
-          My goal in this essay is not to convince you of any side directly. I just want to point
-          out some observations I have had (by this age of 23) about social drinking, and lay out
-          some principles. I imagine this will lead us somewhere.
+          My goal is not to convince you of any side directly. I just want to point out some
+          observations I have had (by this age of 23) about social drinking, and lay out some
+          principles. I imagine this will lead us somewhere.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
 
