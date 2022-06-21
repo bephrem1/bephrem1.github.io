@@ -454,6 +454,90 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
         <Text tag="h5" bold>
           A Different You
         </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Some people quip that they “love their drunk self”. I can agree with this, tweaking it
+          slightly.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I love a totally socially unimpeded version of myself, unimpeded by vexing social fear &
+          anxiety. This is what we like.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you drink, you can become someone you are not. You can become a social butterfly if
+          you are a shy person. This is good, since you will see what is possible for you. If you
+          can do it drunk, you must be able to do it sober.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Sometimes this is good. If you had a hard day, you may objectively be a bad social
+          interactor for the time-being. A few drinks may certainly bring you up and make you a
+          net-positive social node.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          What bothers me more are the “phantom interactions”. The people you talk to who you don’t
+          care about. The guy that compliments your shirt insincerely just because he is
+          hypersocial. The smile you flash a stranger from inebriation and not true confidence. The
+          things you say to random strangers without full poise.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          It is very hard to build a connection with people when you are very tipsy to drunk. Drunk
+          chatter is inane (you only realize this when you are sober). You aren’t really centered
+          within yourself and your personality, what makes you yourself.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When I am sober, I find that my personality is still there. My sense of humor is intact,
+          unblurred. That is “me”. When tipsy-to-drunk I can talk to anyone, but I am not really a
+          notable personality with charisma, I am just another chatty guy.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          A Final Word
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I steered this discussion away from any definite conclusions on whether you should totally
+          cut out drinking alcohol from your life (for socialization). Most things dealing with
+          people and relationships do not have a deterministic output.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          You may find yourself going to a bar one weekend where you may have met the love of your
+          life, and had you had 1 or 2 drinks, you may have found escape velocity from your thoughts
+          to say a simple "hello". But, you took the moral high-ground and didn't drink.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">Hypotheticals steer me away from any absolutes on this topic.</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          The larger thing to take away is the principle that you don't need to drink to effectively
+          socialize. But, can you be your best, unimpeded, social-self without alcohol? Yes. It is
+          just more work, it is the hard path (which often ends up being worthwhile).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Can you avoid all of this inner work, just have fun, and continue regular social drinking?
+          Yes, that is fine as well, you just have to recognice the short & longterm costs of
+          drinking you are willingly assuming.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          It is not enough to stop drinking. You have to stop drinking and be an outstandingly fun
+          person.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">If you can do that, you have won.</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="p" bold>
+          🍻
+        </Text>
       </StandardLayout>
     </React.Fragment>
   );
