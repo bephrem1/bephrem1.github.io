@@ -45,7 +45,7 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
 
         <EllipsisSeparator />
 
-        <Text tag="h5" bold>
+        <Text tag="h6" bold>
           The Backstory
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
@@ -158,6 +158,86 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
         <Text tag="p">
           As with anything life-changing, you only realize the full implications of the happening in
           the longterm, years later. Events like that have a large ripple effect you cannot foresee.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I have had roughly 2 years to reflect on events and here are a few things to keep in mind
+          before you sell your company:
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          Unrealized Wealth
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          <Link type="external" dest={EXTERNAL_LINKS.WIKIPEDIA.WEALTH} openInNewWindow>
+            Wealth
+          </Link>{' '}
+          is an intangible descriptor for what you have on your hands. If your business has found
+          product-market-fit and is producing revenue, with a promising future for growth, you have
+          a machine that will continue churning for your in your sleep to accrue more and more
+          resources.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          No matter what anyone offers for your business, there are different theoretical
+          projections of value untapped to show you what you really have on your hands. The wealth
+          is invisible.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I believe I was one of the best in the world at the very specific thing I was doing, and I
+          never figured out the business mechanics to create offerings to capture more of the value
+          I was creating. I never built a team around me, a machine to take us to the next level.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I had created wealth. Those that watched my content were getting jobs & getting higher
+          compensation from increased interview performance (I imagine $10-30k more per offer). A
+          ratio of the value captured to the value created would be striking.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          <b>
+            If your business is at this stage, where the intrinsic value of the business has yet to
+            be unlocked, it is not a good time to sell your business.
+          </b>{' '}
+          You will be short-changing yourself. No one can tap that invisible value but you who see
+          the vision, and no acquirer will pay you for where you know the business will be in 2
+          years. You will be paid for the current financial performance (plus fair projections).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          We sold at the exact point when the business was picking-up steam in the online search
+          algorithms and things were only at the start. By selling, I gave up my (mostly passive)
+          income stream (which was a fight to earn and certainly not passive to build) and an asset
+          that I know with the right team I could have 10x'ed.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          By taking the sure path, liquidity, you cut things off. You take today's quote, and lose
+          the quote that would have been 10x in 2-4 years.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I choose the easy route, the safest route, the most enticing route, given that I had very
+          little money at the time and didn't deeply understand what wealth really meant.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          If someone offers you $5,000,000 for your business, they are only giving you a quote on
+          wealth you already possess. You must understand the cost of taking that offer, taking the
+          liquidity, and where your tipping point is to make a deal worth it (this is entirely up to
+          you and your life-situation, it is a complex decision because when you reason these things
+          out you will already be exhausted).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">The financial costs of losing the wealth you possessed can be steep.</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          Public Identity
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">lorem.</Text>

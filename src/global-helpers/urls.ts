@@ -38,7 +38,8 @@ export const EXTERNAL_LINKS = {
       SHORT_TERM_EFFECTS: 'https://en.wikipedia.org/wiki/Short-term_effects_of_alcohol_consumption',
       LONG_TERM_EFFECTS: 'https://en.wikipedia.org/wiki/Long-term_effects_of_alcohol'
     },
-    CATABOLISM: 'https://en.wikipedia.org/wiki/Catabolism'
+    CATABOLISM: 'https://en.wikipedia.org/wiki/Catabolism',
+    WEALTH: 'https://en.wikipedia.org/wiki/Wealth'
   },
 
   // personal sites
