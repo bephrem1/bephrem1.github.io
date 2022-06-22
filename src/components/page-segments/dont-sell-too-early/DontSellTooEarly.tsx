@@ -112,6 +112,55 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
           The pressure was crushing. I was trapped by my business. Customers who pay for a product
           do not take days off when they need help, you are on the hook.
         </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I had the crazy thought, “What if we sold the company?” If we could find another entity to
+          continue the company, I would have some liquidity, and the project would not die from my
+          burnout. It seemed possible.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          I discussed this with my co-founder and he agreed to sell the company if a buyer could be
+          found. I spearheaded the efforts to find a buyer. Eventually we began fielding calls (most
+          coming from a site called MicroAcquire which had just started).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          It was a long, drawn-out process. Operations suffered, it was very hard to live in two
+          worlds.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          In one world, the company had to grow and I would be running it for the next 2-4 years, in
+          another, I would not be running the company in 3 months. It is a bizarre feeling that you
+          only truly understand when in the thick of it.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Eventually, we received a reasonable offer from a venture arm of an Indian hotel booking
+          site that invests in technology companies. We took the offer, and in November a majority
+          of the company was acquired (I would maintain a minority stake until December 2021).
+        </Text>
+
+        <EllipsisSeparator />
+
+        <Text tag="p">
+          I provided the top-level backstory just so the following would make more sense and
+          resonate more. There is much more to it than the above, but now we can continue to the
+          main topic.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h5" bold>
+          Why To Not Sell
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          As with anything life-changing, you only realize the full implications of the happening in
+          the longterm, years later. Events like that have a large ripple effect you cannot foresee.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">lorem.</Text>
       </StandardLayout>
     </React.Fragment>
   );
