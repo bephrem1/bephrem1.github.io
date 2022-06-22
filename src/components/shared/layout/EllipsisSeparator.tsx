@@ -18,6 +18,7 @@ const EllipsisSeparator: FunctionComponent<Props> = () => {
       height={SPACES.GAP.LARGE}
       centerItemsHorizontally
       centerItemsVertically
+      uninteractive
     >
       <View direction="horizontal" centerItemsVertically>
         <Dot size={dotSize} color={dotColor} />
