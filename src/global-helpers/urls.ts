@@ -41,11 +41,14 @@ export const EXTERNAL_LINKS = {
     CATABOLISM: 'https://en.wikipedia.org/wiki/Catabolism'
   },
 
+  // personal sites
+  PAUL_GRAHAM: 'http://paulgraham.com',
+  MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in',
+
+  // misc
   TWITTER: 'https://twitter.com',
   MYFITNESSPAL: 'https://www.myfitnesspal.com',
-
-  PAUL_GRAHAM: 'http://paulgraham.com',
-  MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in'
+  IRIBE: 'https://iribe.umd.edu'
 };
 
 export const getCurrentUrl = (router: NextRouter) => {
