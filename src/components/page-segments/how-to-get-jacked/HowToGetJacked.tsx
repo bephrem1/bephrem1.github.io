@@ -338,6 +338,13 @@ const HowToGetJacked: FunctionComponent<Props> = () => {
             gains in strength come fast initially, you don't have to see these phases as separate,
             just take away their properties & characteristics.
           </Text>
+          <Text tag="p">
+            Steroids or any enhancing substances are not necessary. A solid foundation of training
+            hard and eating correctly is all you need to <i>completely</i> transform your body in 6
+            months - 2 years. Most outstanding physiques you see online (like Instagram, etc)
+            claiming to be natural are often not, so do not compare your progress to anyone but
+            yourself and where your genetics can take you.
+          </Text>
         </List>
       </StandardLayout>
     </React.Fragment>
