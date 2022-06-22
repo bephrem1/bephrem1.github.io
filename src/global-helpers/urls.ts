@@ -28,6 +28,7 @@ export const EXTERNAL_LINKS = {
     YOUTUBE: 'https://www.youtube.com/c/BackToBackSWE'
   },
   WIKIPEDIA: {
+    ASYMPTOTIC_ANALYSIS: 'https://en.wikipedia.org/wiki/Asymptotic_analysis',
     MARYLAND_STATE: 'https://en.wikipedia.org/wiki/Maryland',
     UNIVERSITY_OF_MARYLAND: 'https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park',
     PROGRESSIVE_OVERLOAD: 'https://en.wikipedia.org/wiki/Progressive_overload',
@@ -36,12 +37,14 @@ export const EXTERNAL_LINKS = {
       TOXICITY: 'https://en.wikipedia.org/wiki/Alcohol_(drug)#Toxicity',
       SHORT_TERM_EFFECTS: 'https://en.wikipedia.org/wiki/Short-term_effects_of_alcohol_consumption',
       LONG_TERM_EFFECTS: 'https://en.wikipedia.org/wiki/Long-term_effects_of_alcohol'
-    }
+    },
+    CATABOLISM: 'https://en.wikipedia.org/wiki/Catabolism'
   },
 
   TWITTER: 'https://twitter.com',
-  MYFITNESSPAL: 'https://www.myfitnesspal.com/',
+  MYFITNESSPAL: 'https://www.myfitnesspal.com',
 
+  PAUL_GRAHAM: 'http://paulgraham.com',
   MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in'
 };
 

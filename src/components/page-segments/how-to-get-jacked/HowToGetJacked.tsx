@@ -294,6 +294,17 @@ const HowToGetJacked: FunctionComponent<Props> = () => {
             call on eating less/moving more. It is a constant process of watching and adjusting.
           </Text>
           <Text tag="p">
+            As your bodyfat % nears {'<'}10% your body will start{' '}
+            <Link type="external" dest={EXTERNAL_LINKS.WIKIPEDIA.CATABOLISM} openInNewWindow>
+              catabolizing
+            </Link>{' '}
+            a greater proportion of muscle over fat (though it will still mostly be fat being
+            catabolized to make up for your negative energy balance). It becomes a much harder fight
+            as you will be low on energy as well (from your calorie deficit). You have to keep
+            pushing through (if you are going sub-10%). This is why it is hard to naturally sustain
+            sub-10% bf, your body is fighting for a steady-state of healthy fat stores.
+          </Text>
+          <Text tag="p">
             As your mental index of foods' macronutrient composition grows, you will realize that
             the most tasty, craved-after, foods are the most calorie dense & nutrient poor. When you
             become more conscious of this biological wiring, you have more power to fight cravings,
