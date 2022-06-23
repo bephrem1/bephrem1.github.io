@@ -226,11 +226,11 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
-          If someone offers you $5,000,000 for your business, they are only giving you a quote on
-          wealth you already possess. You must understand the cost of taking that offer, taking the
-          liquidity, and where your tipping point is to make a deal worth it (this is entirely up to
-          you and your life-situation, it is a complex decision because when you reason these things
-          out you will already be exhausted).
+          If someone offers you X for your business, they are only giving you a quote on wealth you
+          already possess. You must understand the cost of taking that offer, taking the liquidity,
+          and where your tipping point is to make a deal worth it (this is entirely up to you and
+          your life-situation, it is a complex decision because when you reason these things out you
+          will already be exhausted).
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">The financial costs of losing the wealth you possessed can be steep.</Text>
