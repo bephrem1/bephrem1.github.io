@@ -156,11 +156,7 @@ const Home: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           I moved from Maryland to Washington, DC in March to live with my college friend{' '}
-          <Link
-            type="external"
-            dest={EXTERNAL_LINKS.MICHAEL_WEINBERGER_PERSONAL_SITE}
-            openInNewWindow
-          >
+          <Link type="external" dest={EXTERNAL_LINKS.MICHAEL_WEINBERGER} openInNewWindow>
             Michael
           </Link>
           . As summer kicked in I focused on losing fat while maintaining lean mass (which I had

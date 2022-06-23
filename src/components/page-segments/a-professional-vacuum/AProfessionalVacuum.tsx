@@ -144,11 +144,7 @@ const AProfessionalVacuum: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           In March, I moved to Washington DC with my college friend{' '}
-          <Link
-            type="external"
-            dest={EXTERNAL_LINKS.MICHAEL_WEINBERGER_PERSONAL_SITE}
-            openInNewWindow
-          >
+          <Link type="external" dest={EXTERNAL_LINKS.MICHAEL_WEINBERGER} openInNewWindow>
             Michael
           </Link>{' '}
           and began to go out to bars, clubs, & general social events (to grow in that area as
@@ -200,7 +196,7 @@ const AProfessionalVacuum: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">
           When inspired, I write. I began writing for myself (inspired by{' '}
-          <Link type="external" dest={EXTERNAL_LINKS.PAUL_GRAHAM}>
+          <Link type="external" dest={EXTERNAL_LINKS.PAUL_GRAHAM.HOME}>
             Paul Graham
           </Link>
           ), articulating my thoughts in a persistent medium and expanding on them.

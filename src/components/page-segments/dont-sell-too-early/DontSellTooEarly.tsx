@@ -342,7 +342,63 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
           Going 0-to-1 Is Much Harder Than 1-100
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <Text tag="p">lorem ipsum.</Text>
+        <Text tag="p">
+          It is much harder to prove traction for a new service or product in the market than to
+          take an existing business with healthy margins and scale it with proper systems in place.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When I first started Back To Back SWE, my first 3-6 months of instructional videos each
+          got 0-100 views. I was making content for myself and a few dedicated fans at that point.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">Then the internet found what I was making and traction took hold.</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          That phase of silent building is excruciating, when you find traction it is like finding
+          an oasis in a desert. You collapse by the water.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Once you start making revenue and growing, you become{' '}
+          <Link
+            type="external"
+            dest={EXTERNAL_LINKS.PAUL_GRAHAM.DEFAULT_ALIVE_OR_DEAD}
+            openInNewWindow
+          >
+            default alive
+          </Link>
+          . Asymptotically your business, your creation, will survive.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          <b>When you start something new with a new group of people, the clock is ticking.</b>{' '}
+          Talented individuals who could be paid a lot to do something else can only work so long on
+          an idea before the morale reaper knocks at the door (you have ~3-9 months).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          On the other hand, if you have an existing company, with existing revenues, your attention
+          is directed at how to grow a plant that has already sprouted. This is a replicable
+          skillset.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          It may be less exciting and fun than to have planted the seeds of something new in the
+          world, but it is much more reliable of a path to not end up empty-handed.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          You must take note that if you have a post-PMF business, you have a diamond on your hands.
+          If you lose it, you will have to go digging again.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          Non-Closure & “What If”s
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">_</Text>
       </StandardLayout>
     </React.Fragment>
   );

@@ -43,8 +43,11 @@ export const EXTERNAL_LINKS = {
   },
 
   // personal sites
-  PAUL_GRAHAM: 'http://paulgraham.com',
-  MICHAEL_WEINBERGER_PERSONAL_SITE: 'https://michaelwe.in',
+  PAUL_GRAHAM: {
+    HOME: 'http://paulgraham.com',
+    DEFAULT_ALIVE_OR_DEAD: 'http://www.paulgraham.com/aord.html'
+  },
+  MICHAEL_WEINBERGER: 'https://michaelwe.in',
 
   // misc
   TWITTER: 'https://twitter.com',
