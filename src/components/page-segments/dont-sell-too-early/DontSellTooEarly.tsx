@@ -512,7 +512,9 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
           business as long as humanly possible (even if you have to take long spans of time off to
           recenter yourself).
         </Text>
-        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+
+        <EllipsisSeparator />
+
         <Text tag="p">መልካም መንገድ።</Text>
       </StandardLayout>
     </React.Fragment>
