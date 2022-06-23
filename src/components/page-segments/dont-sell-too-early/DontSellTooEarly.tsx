@@ -176,7 +176,7 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
           </Link>{' '}
           is an intangible descriptor for what you have on your hands. If your business has found
           product-market-fit and is producing revenue, with a promising future for growth, you have
-          a machine that will continue churning for your in your sleep to accrue more and more
+          a machine that will continue churning for you in your sleep to accrue more and more
           resources.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
