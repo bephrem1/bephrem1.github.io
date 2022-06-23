@@ -1,8 +1,8 @@
+import { EXTERNAL_LINKS, INTERNAL_LINKS } from '../../../global-helpers/urls';
 import React, { FunctionComponent } from 'react';
 import { SPACES, TEXT_SIZE } from '../../../design';
 import { getOpenGraphMetaTags, getSEOMetaTags } from '../../../global-helpers/page-headers';
 
-import { EXTERNAL_LINKS } from '../../../global-helpers/urls';
 import EllipsisSeparator from '../../shared/layout/EllipsisSeparator';
 import Head from 'next/head';
 import Link from '../../shared/elements/Link';
@@ -290,7 +290,59 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
           altogether if you are working on something promising.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <Text tag="p">lorem.</Text>
+        <Text tag="p">
+          This is very hard to describe to you if you are in the thick of operating your business
+          and want out, but, you do not want to sell your business to do nothing. You very quickly
+          will realize that a lot of happiness in life comes from creating meaningful things and
+          reveling in your creations.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          A{' '}
+          <Link type="internal" dest={INTERNAL_LINKS.WRITING.A_PROFESSIONAL_VACUUM} openInNewWindow>
+            professional vacuum
+          </Link>{' '}
+          for creators does not last long.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          The sale of your business will be very anti-climactic. The day that you receive the
+          proceeds (whether a wire to your bank, or stock in a brokerage account), you will pause
+          and then ask yourself "now what?".
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Well, now you get to sit on your hands indefinitely until you find another hidden need in
+          the world interesting enough for you to address, and someone capable and compatible enough
+          with you and the problem for it to be worth a try. This can happen soon, or it can be
+          years away.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          You will enjoy the newfound freedom - maybe you will buy a home, a new car, or whatever
+          other esoteric thing you had in mind, but at the end of the day, nothing you can buy can
+          replace what you had, emotionally, financially, etc.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          These things just don't matter, but you have to go through it to empirically learn that.
+          They peak you, then you realize what really matters in life.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you were building the business you were in it for the game. In it for the customers.
+          In it to the death for building what you were aiming to build. Money just acted as a
+          barometer for value creation & capture.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">You will miss the game.</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          Going 0-to-1 Is Much Harder Than 1-100
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">lorem ipsum.</Text>
       </StandardLayout>
     </React.Fragment>
   );
