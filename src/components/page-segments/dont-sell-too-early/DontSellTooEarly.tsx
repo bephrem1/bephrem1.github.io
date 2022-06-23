@@ -237,7 +237,57 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
         <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
 
         <Text tag="h6" bold>
-          Public Identity
+          Professional Identity
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          What you do gives you a strong identity in people's minds. When you first meet people
+          professionally, they will index you as "Founder of X". When you no longer are running your
+          company, you step into an identity void.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you do interesting things, interesting people tend to fall into your life-path. I met
+          so many interesting people on my path, whether they were customers or other builders doing
+          what I was doing. I met designers, developers, other technical educators, entrepreneurs.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you are doing interesting things, interesting people want to learn more about you and
+          connect with you. Your network grows and your resourcedness grows.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Having a nice car is not interesting. Having a nice house is not interesting. Strangers
+          doing interesting things want to see creations, creativity, skills, intelligence,
+          craftiness.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you sell your company, you go from "Founder of X" to "prev X, Y, Z". You lose your
+          professional identity. You become "the guy who ran a company but not sure what it did".
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Maintaining a strong professional identity in peers' minds is important for your
+          professional network to continue growing. By selling you cut this growth vector off.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          A Purpose Void
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Having a profitable business you are working on that keeps you occupied and creative is a
+          gift. Having customers that love your products that you can talk to is a gift. You do not
+          realize this until you lose these gifts, and stand scratching your head asking "what's
+          next?".
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          "What's next" is a very hard, tiring question to have to solve. It is better to avoid it
+          altogether if you are working on something promising.
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
         <Text tag="p">lorem.</Text>
