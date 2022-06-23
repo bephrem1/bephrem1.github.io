@@ -398,7 +398,122 @@ const DontSellTooEarly: FunctionComponent<Props> = () => {
           Non-Closure & “What If”s
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
-        <Text tag="p">_</Text>
+        <Text tag="p">
+          When you are operating your company, you have a 1, 2, 5, 10-year vision in your head of
+          where the business will go. You don't even have to force this, it just occurs naturally
+          when you are thinking creatively.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you move on, that vision you had for the business does not go away. It stays in your
+          head.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Even when you have no operational control or power remaining, you still will know exactly
+          where the business should be moving. If the new owners choose another trajectory, a
+          dissonance is created.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">You will always wonder "what if I had ran the business 1-2 more years?"</Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          <b>
+            This question can always be recursively asked, and the answer will always be "the
+            business will be larger, more impactful, and make more money"
+          </b>{' '}
+          (if it is being run properly). This is a hard thing to get over.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          When you depart your customers will miss you (if you were a prominent figure in operations
+          or customer support). All of the promises you had made to customers cannot be directly
+          acted on by you anymore as you will have moved-on.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          It is important that you consider how much closure you have with your vision and where the
+          business is at today.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Does your story still have more chapters left to it? Or have you reached a good point
+          where you will be content moving-on with proper closure.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.MEDIUM} />
+
+        <Text tag="h6" bold>
+          The New Owners Could Be the Wrong Choice
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          The new owners could not be structured to run your business well given its current state.
+          Back To Back SWE was 1-2 years away from being operationally stable with a staff and clear
+          workstreams that would each grow impact and subsequently revenue greatly. When the company
+          was sold, it was just a staff of contractors, and 2 business partners (one of whom was
+          burnt-out to the bone).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          The year after a majority of the company was acquired, no new products shipped to
+          customers. The company & product was not rebranded and the v0 site was not rewritten to a
+          polished v1 site (as I had delineated in a 1-year plan I had written before acquisition
+          talks even started). The company was just held as a cashcow income-statement item.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          The firm that acquired us was not structured to creatively run a company this nascent.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Teachers still needed to be vetted and hired, the whole software needed to be rewritten
+          into a high-quality site with community features & better design, customer support needed
+          to be streamlined. Additionally offerings like resume reviews, live interviews, and career
+          coaching needed to be launched.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          An engineer from HackerRank was planted in as a COO of sorts and it just wasn't feasible
+          that this huge body of work could be taken on by outsiders. I had to run the company for
+          1-2 more years and reach this point of systemization myself.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          So the product stagnated. The business stopped growing and it lives in a frozen state now.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Looking back 2 years later, I can't say that I would have done anything differently given
+          my reasoning (& mental health) at the time. I knew we had to keep going, but I sought out
+          a sale because I knew the business could die.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          So when you are seeking out an acquirer, make sure that your business is even in a state
+          where another entity can run it, and that that entity has the expertise and hiring prowess
+          to operationally excel in your industry.
+        </Text>
+
+        <EllipsisSeparator />
+
+        <Text tag="p">
+          Ultimately, there is no right answer as to what you should do. Having sold my company, I
+          can say from experience what you should expect ahead of time so that you can factor these
+          costs into your decision process.
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          Running a company is very hard. It is very tantalizing to want to cash out your chips, but
+          with that comes many life costs (beyond financial costs).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">
+          As a general heuristic, you want to take the harder path. You want to work on your
+          business as long as humanly possible (even if you have to take long spans of time off to
+          recenter yourself).
+        </Text>
+        <Spacer direction="vertical" size={SPACES.GAP.SMALL} />
+        <Text tag="p">መልካም መንገድ።</Text>
       </StandardLayout>
     </React.Fragment>
   );
