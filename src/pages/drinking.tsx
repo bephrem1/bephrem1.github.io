@@ -1,14 +1,14 @@
 import { EmptyObject } from '../global-types/empty';
 import { FunctionComponent } from 'react';
 import PageBase from '../components/page-segments/PageBase';
-import QuittingSocialDrinking from '../components/page-segments/quitting-social-drinking/QuittingSocialDrinking';
+import OnSocialDrinking from '../components/page-segments/on-social-drinking/OnSocialDrinking';
 
-const QuittingSocialDrinkingPage: FunctionComponent<EmptyObject> = () => {
+const OnSocialDrinkingPage: FunctionComponent<EmptyObject> = () => {
   return (
     <PageBase>
-      <QuittingSocialDrinking />
+      <OnSocialDrinking />
     </PageBase>
   );
 };
 
-export default QuittingSocialDrinkingPage;
+export default OnSocialDrinkingPage;
