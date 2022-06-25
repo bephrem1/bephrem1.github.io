@@ -14,24 +14,24 @@ import { useRouter } from 'next/router';
 
 interface Props {}
 
-const QuittingSocialDrinking: FunctionComponent<Props> = () => {
+const OnSocialDrinking: FunctionComponent<Props> = () => {
   const router = useRouter();
 
   return (
     <React.Fragment>
       <Head>
         {getSEOMetaTags({
-          title: 'Benyam Ephrem | Quitting Social Drinking',
-          description: 'Quitting Social Drinking - You Do Not Need to Drink to Socialize Well.'
+          title: 'Benyam Ephrem | On Social Drinking',
+          description: 'On Social Drinking - You Do Not Need to Drink to Socialize Well.'
         })}
         {getOpenGraphMetaTags(router, {
-          title: 'Quitting Social Drinking',
-          description: 'Quitting Social Drinking - You Do Not Need to Drink to Socialize Well.'
+          title: 'On Social Drinking',
+          description: 'On Social Drinking - You Do Not Need to Drink to Socialize Well.'
         })}
       </Head>
       <StandardLayout>
         <Text tag="h3" bold>
-          Quitting Social Drinking
+          On Social Drinking
         </Text>
         <Spacer direction="vertical" size={SPACES.GAP.XSMALL} />
         <Text tag="p" fontSize={TEXT_SIZE.MICRO} uninteractive>
@@ -533,4 +533,4 @@ const QuittingSocialDrinking: FunctionComponent<Props> = () => {
   );
 };
 
-export default QuittingSocialDrinking;
+export default OnSocialDrinking;
