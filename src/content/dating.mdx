@@ -1,0 +1,393 @@
+---
+title: The Future of Online Dating Will Be Mostly Offline
+date: January 2025
+---
+
+> I’m currently prototyping an offline-first dating service called [Bind](https://joinbind.com/). I share my
+thought process on ideating an approach to building in a notoriously difficult space.
+
+I’ve become very curious about what the future of online dating will look like. This makes sense given
+that I’m a single male in my mid-20s who hasn’t had a great time on dating apps (for various reasons).
+I have a vested interest in understanding the problem & finding an optimal solution.
+
+In algorithm analysis, we constantly ask ourselves “is this the best we can do?”. We get a deep theoretical
+understanding of the problem, theorize an optimal performance given the constraints (not yet knowing the exact
+solution), then work towards a concrete solution achieving that performance.
+
+We also aim to identify solutions that cannot exist, or may appear to be possible, but are impossible for one
+reason or another. Above all, we never settle for a solution that is “good enough”.
+
+In this case, the problem is that of finding a highly compatible longterm partner. The best (online) solution for that
+today is Hinge (maybe Bumble, not Tinder). We will try to understand what comes after these services (2025 & beyond),
+given the condition & desire of users today.
+
+Before we continue (since it is relevant to the credibility of this writing), this is what I look like:
+
+<Image
+  src="/images/writing/dating/ben1.jpg"
+  alt="Ben"
+  caption="Benyam Ephrem, June 2024 (colorized)."
+/>
+
+## Prior Art
+
+### “Broken” vs Endemic
+
+When people say “online dating today is broken,” they often aren’t very clear on “what” is broken. To create a better
+solution, it’s important we draw a distinction between problems _created within_ online dating services, & problems that arise
+from the very _nature_ of how humans make mating choices.
+
+The nature of a problem is immutable. If all complaints we can generate reduce simply to human nature & the mating decision
+process, we have nothing further to act on or investigate. This would mean we are at an equilibrium (albeit a very
+uncomfortable one).
+
+We will draw a line between dissatisfaction:
+- endemic to human mating in any context
+- arising from the online dating experience (making highly selective mating choices in a context of little information, an online
+profile)
+- arising from other sources (causes we may or may not be able to change)
+
+#### The Dating Marketplace
+
+Human mating operates as a two-sided competitive market. It is a bit clinical to use the term “market” here, but being precise will
+be important to us framing the problem correctly. It will give us tools to understand the nature of platforms & see into the future (more on this later).
+
+Every individual has a goal, and a strategy to achieve that goal. Strategy can be consciously known to the individual, or
+completely subconscious.
+
+Any dating service has to decide how “fair” it will be in its matching process, since it must help users move towards their goals. While
+not necessarily a zero sum game, one user’s gain may lead to another user’s lost opportunity.
+
+<Aside>We will not attempt to define what “fair” means for an online dating platform, but it is a very important concept to define. Many
+users’ interests will be at contention with one another. It could mean giving users an even distribution of impressions to potential matches,
+showing them to matches of relatively equal desirability, clustering their profile impressions to potential matches in  geographic regions
+close to them, etc.</Aside>
+
+<Aside>Most services will implement some form of [stable matching](https://en.wikipedia.org/wiki/Stable_marriage_problem) algorithm to propose
+stable pairings (see [Gale-Shapley](https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm)). Services must infer who would
+prefer whom.</Aside>
+
+A solution that is globally “fair” (one that aims to maximize the surface area under the “user satisfaction curve”) will not
+be a solution where every *individual* user is maximally satisfied.
+
+Even in a maximally “fair” service, as in any competitive two-sided market, there will always be some portion of individuals who,
+given their strategy:
+- **completely fail** to achieve their goals
+- **partially fail** to achieve their goals
+- **partially succeed** in achieving their goals
+- **completely succeed** in achieving their goals
+
+Mate choice, by design, is not fair. Evolution has encoded within us the drive to favor some as mates, and disfavor others.
+
+No matter how fair or unfair the design of a dating service, this core of selectivity will exist. There will always be a set of individuals
+left selected out, or only able to attain a partially successful outcome, and subsequently dissatisfied in not meeting their goals.
+
+According to Pew Research, over 50% of online dating users report somewhat negative, to very negative, experiences dating online<sup>[1]</sup>. Is
+this necessarily an actual problem? Is dating broken? Or are online platforms only surfacing data that has never been available to us before about
+human selectivity.
+
+What should be of most interest to us is the middle of the distribution. Partially satisfied users and partially dissatisfied users who could experience
+better matchmaking (or a better user experience). This is where there are things to be done.
+
+In financial markets, different market microstructures result in different distributions of participant success. To move the dating success
+distribution, you have to fundamentally rethink the user experience that sets the distribution.
+
+### Today’s Options
+
+To understand where we’re going, it’s important to understand where we’re currently at. If you decided that you wanted to find your partner online
+in 2025, what choices would you have?
+
+#### The Match Group Machine
+
+Tinder, Bumble, & Hinge are the largest online dating services in the U.S., constituting ~85% of the online dating market. Marketshare breaks down
+roughly like this (founding date added for context):
+- Tinder (~40% — f. 2012)
+- Bumble (~25% — f. 2014)
+- Hinge (~20% — f. 2011)
+- Others:
+  - Plenty of Fish (POF) (~4% — f. 2003)
+  - OkCupid (~4% — f. 2003)
+  - Match.com (~3% — f. 1995)
+  - Grindr (~3% — f. 2009)
+  - The League (~2% — f. 2014)
+  - BLK (~1% — f. 2017)
+  - BlackPeopleMeet (~1% — f. 2002)
+  - ... and the list goes on
+
+Only Bumble & Grindr remain independent & are not owned by Match Group. Match Group controls ~70% of the U.S. online dating market.
+
+<Aside>Match Group is essentially building a mosaic of companies whose business models have proven themselves after 5+ years, filling in gaps in
+their portfolio. Hinge, proving itself as the “relationship app”, was acquired for a 51% stake in 2018 (at ~$10-20M revenue), later growing to
+[full ownership](https://techcrunch.com/2019/02/07/match-fully-acquires-relationship-focused-app-hinge/) in 2019. Revenue would 10x over the next
+5 years to ~$300M in 2024. The League, proving itself as the app for “elite singles”, was [acquired](https://www.forbes.com/sites/meimeifox/2023/09/18/first-intimate-interview-with-the-league-founder-amanda-bradford-since-30-million-match-group-acquisition/)
+for $30M in 2022, 8 years after it’s founding. Companies trying new models that die, disappear, those that live long enough end up being acquired
+by Match Group.</Aside>
+
+Is Match Group a monopoly? Is there anything anti-competitive going on here? According to the FTC website<sup>[2]</sup>:
+
+<Quote>As a first step, courts ask if the firm has “monopoly power” in any market. This requires in-depth study of the products sold by the leading firm,
+and any alternative products consumers may turn to if the firm attempted to raise prices. Then courts ask if that leading position was gained or
+maintained through improper conduct—that is, something other than merely having a better product, superior management or historic accident. Here
+courts evaluate the anticompetitive effects of the conduct and its procompetitive justifications.</Quote>
+
+While Match Group may hold dominant marketshare & controls almost all alternative products people may turn to, they don’t have to engage in much
+anti-competitive conduct to maintain their marketshare.
+
+The difficulties in bootstrapping a new dating service from scratch are naturally insurmountable. The nature of marketplaces protect them.
+
+#### The Importance of Options
+
+One of the most important characteristics of any market is abundance of choice. Nobel prize winning economist Alvin E. Roth calls this property
+“thickness”. The more options, the thicker the market.
+
+You’ve likely heard the term “liquidity” in financial markets. Usually we think of it in one direction, the ease of selling an asset to convert it
+back into fungible currency. But it goes both ways, those wanting to buy a certain allotment hope for ease in completing their transaction as well.
+
+Larry Harris in “Trading & Exchanges” offers a simple definition<sup>[3]</sup>:
+
+<Quote>Liquidity is the ability to trade when you want to trade. Some orders *offer liquidity* by presenting other traders with trading
+opportunities. Other orders take liquidity by seizing those opportunities. Traders decisions to offer or take liquidity therefore affect market
+quality.</Quote>
+
+Access to options in a market is so important that market makers (market participants that “make a market” by always offering to buy or sell an
+asset, even in the absence of “regular” buyer or sellers providing price information) are willing to pay brokers for orders to be routed to them
+(called “payment for order flow”, PFOF).
+
+Options are highly valuable & competed for, because they allow market participants to have more opportunities to meet their goals (at lower cost), reducing
+difficulty in solving the search problem.
+
+Fragmentation is the enemy of market density. It divides trading options amongst various separate databases (and even completely separate geographic
+locations), increasing difficulty in solving the search problem.
+
+<Aside>It is common for financial exchanges to consolidate when large synergies are present. Bringing all options under one roof allows for more efficient
+matching of buyers & sellers. One example is the CME (Chicago Mercantile Exchange) and CBOT (Chicago Board of Trade) [merging in 2007](https://investor.cmegroup.com/news-releases/news-release-details/cme-and-cbot-merge-creating-25-billion-premier-global)
+to form CME Group, Inc.</Aside>
+
+Markets that cannot gain enough momentum either fail, or end up merging into a larger entity to gain the density needed to solve the search problem.
+
+#### Most of the Jobs Are Done
+
+So what does this have to do with online dating? The largest online dating platforms hold the most options, and the services with the most dating options
+will create a natural pull for users to transition to them to better solve their search problem.
+
+Hinge is “the relationship app”, with intentional design choices (like making it a first-class UI concern to send a message on prompts or photos) made to
+slow down the user experience and make it more deliberate. Tinder is “the hookup app” (whether they want to call it that or not), with a much faster
+experience of rapidly swiping through photos (to the point only physical attraction is considered).
+
+American academic Clayton Christensen formalizes this in the Jobs to Be Done (JTBD) framework, stating that the unit on which to assess consumer choice is
+not their concrete demographics (age, race, gender, etc), but rather “jobs to be done” in their lives.
+
+In a talk at Google<sup>[4]</sup> he says:
+
+<Quote>
+... I have all kinds of other characteristics and attributes, as you can see. But none of my characteristics or attributes have yet caused me to buy
+The New York Times today. There might be a correlation between the propensity that I will buy the The New York Times. But my characteristics don’t cause
+me to buy it. ... And yet, almost all of the work that we do in assessing market potential, we look at the characteristics or attributes of the potential
+customers. <Highlight>And a better way to think of [consumer choices], we decided, is that...darn it. Everyday, stuff happens to us. Jobs arise in our life.
+And when these jobs arise, we need to find some way to get the jobs done.</Highlight> And some of the jobs are simple incremental things that happen regularly.
+Others are dramatic and important breakthrough problems. But whenever we have a job to do, we have to find something and *pull* it into our lives in order
+to get the job done. <Highlight>And what we decided is understanding the job is the critical key to develop products that we can predictably make and find the customers
+to buy.</Highlight>
+</Quote>
+
+A mistake many entrepreneurs will make building new dating platforms is that they will propose incremental improvements to the user experience,
+without understanding the underlying job users are hiring them to solve.
+
+Markets usually progress in “windows of opportunity”, some macro change happens (a technological breakthrough, a new social norm, etc), then there is
+fertile ground for certain kinds of companies to take root & grow. Then after 2, 3, 4 years — the window slowly closes, competition means:
+- customers have many choices, the bar on features goes higher
+- cost of entry to reach feature parity goes up
+- employees become harder to hire
+- capital becomes harder to raise
+- crafting unique marketing messaging becomes harder
+
+In the early 2010s (recall Tinder was founded in 2012, Hinge 2011, Bumble 2014), mobile phones presented such a window. Since people took their phone everywhere,
+users could join & be active on services in record numbers. Throughout the decade, users began to “hire” different services to solve problems they were
+now more capable of solving.
+
+Tinder popularized the “double opt-in” model of matching where both individuals in a match had to mutually “like” each other before a match was made. Most
+of the 2010s would be various startups building different permutations of this model, in different geographies, for different demographics.
+
+The final result, with the dust fully settled from the 2010s, was Hinge, Bumble, & Tinder owning 85% of the U.S. online dating market.
+
+The gravitational pull of these largest services finally formed, & the core jobs to be done mostly filled, left little room to substantiate the existence
+of other services. So the late 2010s, & early 2020s saw little to no innovation.
+
+##### Credit Cards in the 1960s
+
+A similar industry shakeout occurred in the U.S. credit card industry in the late 1960s.
+
+Before credit cards, payments would either be done by cash or check. This presented issues for merchants because they would have to take on the credit
+risk of each of their customers directly. If a customer provided a check that bounced, the merchant risked losing the payment.
+
+Credit card companies would take on the payment risk of each customer directly, extending a credit line to them. The credit card company would gaurantee
+payments to merchants for a small “interchange fee” (usually 1-3%). The customer would become indebited to the credit card company, & later pay down their
+account.
+
+Diners Club (f. 1950) was the first independent payment card company in the world, pioneering this charge card model. They both issued their cards &
+operated as a payment network. They partnered directly with restaurants, hotels, travel agencies, & entertainment venues to process payments.
+
+The 1960s saw the emergence of general-purpose credit cards, as well as the rise of competing card networks like Master Charge (now Mastercard),
+BankAmericard (now Visa), & American Express (f. 1850, but released their own charge card).
+
+Payment networks experienced the same runaway consolidation that we see in other matching markets. The more merchant banks a payment network partnered
+with, the more merchants accepted their payments, the more valuable a card became to cardholders (you could pay in more places with the same card).
+
+By 2023, marketshare in the U.S. by purchase volume<sup>[5]</sup> looked like this:
+- Visa (~52.2% — f. 1958)
+- Mastercard (~24.13% — f. 1966)
+- American Express (~19.78% — charge card, f. 1958)
+- Discover (~3.87% — f. 1985)
+
+No major payment networks aside from the handful started around this time exist today. 
+
+##### Attempts to Innovate
+
+When customers have hired enough services to solve their jobs, an equilibrium is quietly reached. This steady state may not look pleasant, and could be
+far from perfect, but it is the best the market can possible yield given incumbent lock-in.
+
+There has to be a strong, visceral, shift in consumer preference for a new service to substantiate it’s existence. If this is not present, services
+will just fizzle out after an initial enthusiastic burst of growth (later followed by a slow demise).
+
+What probably happened to any companies attempting to innovate in the late 2010s, early 2020s, is they would start with the premise that “online dating
+today is broken”, then launch an app with with some incremental user experience change:
+- longer-form profiles
+- scheduling a time & place for a date upon matching
+- orient around a game-like experience
+
+What will happen is that many people will get excited and there will be an initial burst of enthusiasm that this new service will hold the solution to
+all of their online dating woes (whatever the cause).
+
+Since everyone will have this problem, and many will be single, there will be a rush of tens of thousands of users in the first year or so.
+
+But what will happen is that, as the months go by, users will start to churn. The same endemic problems that arose in other online services will
+slowly germinate from a seed & take root.
+
+Even if the service somehow reaches a critical mass of users, the same systemic biases & hyperselectivity will arise once again. Eventually users will
+start deciding to leave for existing services. The ones with the most options, hoping that something will have changed in the time they were away.
+
+Roughly 64% of dating app users have only 1 app installed on their phone & 17% have 2 (meaning ~81% have at most 2 apps installed). This leaves very
+little room for patience with alternatives.
+
+
+{/* The new app will churn out most users in year 2-3, and eventually die out. */}
+
+
+{/* If the job that a user hires your new online dating site to solve is “Hinge & Bumble didn’t work for me”, then you’re on shaky ground. */}
+
+
+
+
+{/* ---
+
+The next generation of online dating won’t look like the last. Most of the jobs in the traditional model of online dating are done. */}
+
+{/* If the job that a user hires your new online dating site to solve is “Hinge & Bumble didn’t work for me”, then you’re on shaky ground. */}
+
+{/* Usually these “improvements” just move endemic problems around. */}
+
+
+
+
+{/* Usually companies start out with their own concept of the problem they are solving, then over time customers mold the company (which is still very much
+like clay) into the actual problem they want solved. It is a constant loop of setting internal vision, releasing, & external molding. */}
+
+
+
+
+{/*
+
+##### A Quiet Decade */}
+
+{/* ---
+
+
+
+Those who wish to compete will usually start a service, gain tens of thousands of users in year 1, then eventually fizzle out when the fail to retain
+users. The users will eventually transition over to a Match Group service.
+
+There are actually great synergies to building a holding company around online dating services. Each company is solving the same problem in
+different geographies, for different demographics (age, race, etc), so having a single company with a large repository of data, proprietary algorithms
+determined from years of testing & observation, and the marketing power to cross-pollinate between sites offers consumers a better end-product.
+
+It is not in the public’s interest, or in each company’s interest, to operate separate databases of singles who all have the same objective.
+
+
+
+
+
+Each dating service solving the same cold-start
+problem
+
+
+
+
+
+
+
+
+While Match Group does have dominant market share, it actually doesn’t need to maintain it through anti-competitive means. The nature of markets protect
+
+
+
+
+Is Match Group a monopoly? Is there is anything anti-competitive going on here? I’m not an anti-trust lawyer, so I consulted the Federal Trade Commission’s
+website:
+
+There are actually a lot of synergies to building a holding company around online dating services.
+ */}
+
+
+
+
+
+<br />
+<br />
+
+#### References
+
+1. Vogels, Emily A., and Colleen McClain. “Key Findings about Online Dating in the U.S.” Pew Research Center, 2 Feb. 2023, [www.pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/](https://pewresearch.org/short-reads/2023/02/02/key-findings-about-online-dating-in-the-u-s/).
+2. Lamb, Brad Albert and Hannah, and Stephanie T. Nguyen. “Monopolization Defined.” Federal Trade Commission, 4 Mar. 2022, [www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/single-firm-conduct/monopolization-defined](https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/single-firm-conduct/monopolization-defined).
+3. Harris, Larry. Trading and Exchanges: Market Microstructure for Practitioners. Oxford University Press, 2003.
+4. “Where Does Growth Come From? | Clayton Christensen | Talks at Google.” YouTube, Talks at Google, 8 Aug. 2016, [www.youtube.com/watch?v=rHdS_4GsKmg](https://youtu.be/rHdS_4GsKmg?si=BrrAoF0LcQ-YOnZ5&t=569).
+5. Thangavelu, Poonkulali. “Credit Card Market Share Statistics.” Bankrate, 7 July 2023, [www.bankrate.com/credit-cards/news/credit-card-market-share-statistics](www.bankrate.com/credit-cards/news/credit-card-market-share-statistics).
+
+{/*
+
+{/* Notice how concentrated the market is around 3 key players, there is a reason for this. Drawing a parallel back to U.S. equity markets,
+the following  */}
+
+
+
+
+
+
+{/* [Game theory](https://en.wikipedia.org/wiki/Game_theory) models strategic problems like this. */}
+
+{/* Different market microstructures will result in different distributions of success.
+
+### Online Dating Will Change
+
+As a primer, here is the stock price of Match Group
+
+---
+---
+---
+
+Men tend to underestimate how picky women can be in their dating preferences, women tend to underestimate how liberal men
+can be in their dating preferences.
+
+### Prior Art */}
+
+{/* Hinge, Bumble, & Tinder control 73.85% marketshare cumulatively
+
+, but really just Hinge for serious relationships)
+
+
+### Taboo
+
+This is a problem people in Silicon Valley don’t really want to touch.
+
+### Existential Barriers to Innovation
+
+Lorem */}
