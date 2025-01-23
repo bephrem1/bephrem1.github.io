@@ -11,6 +11,7 @@ import Link from "../../shared/elements/Link";
 import SiteLayout from "../../shared/layout/SiteLayout";
 import Navbar from "../../shared/navigation/Navbar";
 import QuoteIcon from "../../../icons/lib/QuoteIcon";
+import TableOfContents from "./TableOfContents";
 
 interface Props {
   mdxSource: any;
@@ -25,8 +26,15 @@ const Writing: FunctionComponent<Props> = ({ mdxSource, mdxData }) => {
       <Navbar />
 
       <div className="pt-3.5 sm:pt-9 pb-16">
-        <Header className="mb-4 sm:mb-6" title={title} date={date} />
-        <Contents mdxSource={mdxSource} />
+        <div className="relative max-w-[1400px] mx-auto">
+          <div className="flex">
+            <div className="flex-1">
+              <Header className="mb-4 sm:mb-6" title={title} date={date} />
+              <Contents mdxSource={mdxSource} />
+            </div>
+            <TableOfContents className="fixed top-24 left-[max(0px,calc(50%-700px+24px))]" />
+          </div>
+        </div>
       </div>
     </SiteLayout>
   );
@@ -36,21 +44,12 @@ const Contents = ({ mdxSource }) => {
   return <MDXRemote components={components} {...mdxSource} />;
 };
 const components = {
-  h1: (props: any) => (
-    <h1 className="text-neutral-200 text-3xl font-semibold mb-2.5" {...props} />
-  ),
-  h2: (props: any) => (
-    <h2 className="text-neutral-200 text-2xl font-semibold mb-2.5" {...props} />
-  ),
-  h3: (props: any) => (
-    <h3 className="text-neutral-200 text-xl font-semibold mb-2.5" {...props} />
-  ),
-  h4: (props: any) => (
-    <h4 className="text-neutral-200 text-lg font-semibold mb-2.5" {...props} />
-  ),
-  h5: (props: any) => (
-    <h5 className="text-neutral-200 text-base font-semibold mb-2.5" {...props} />
-  ),
+  h1: (props: any) => <h1 id={hid(props)} className="text-neutral-200 text-3xl font-semibold mb-2.5" {...props} />,
+  h2: (props: any) => <h2 id={hid(props)} className="text-neutral-200 text-2xl font-semibold mb-2.5" {...props} />,
+  h3: (props: any) => <h3 id={hid(props)} className="text-neutral-200 text-xl font-semibold mb-2.5" {...props} />,
+  h4: (props: any) => <h4 id={hid(props)} className="text-neutral-200 text-lg font-semibold mb-2.5" {...props} />,
+  h5: (props: any) => <h5 id={hid(props)} className="text-neutral-200 text-base font-semibold mb-2.5" {...props} />,
+  h6: (props: any) => <h6 id={hid(props)} className="text-neutral-200 text-sm font-semibold mb-2.5" {...props} />,
   p: (props: any) => (
     <p
       className="text-neutral-100 mb-3 [&>sup]:text-neutral-400 [&>sup]:text-xs [&>sup]:relative"
@@ -173,6 +172,17 @@ const components = {
       </figure>
     );
   },
+};
+const headingCounters = new Map<string, number>();
+const hid = (props: any) => {
+  const baseId = props.children.toLowerCase().replace(/\s+/g, "-");
+
+  // Get current count for this heading text
+  const count = headingCounters.get(baseId) || 0;
+  headingCounters.set(baseId, count + 1);
+
+  // Only append number if it's a duplicate (count > 0)
+  return count > 0 ? `${baseId}-${count}` : baseId;
 };
 
 const Header = ({
