@@ -12,6 +12,7 @@ import SiteLayout from "../../shared/layout/SiteLayout";
 import Navbar from "../../shared/navigation/Navbar";
 import QuoteIcon from "../../../icons/lib/QuoteIcon";
 import TableOfContents from "./TableOfContents";
+import ProgressLine from "./ProgressLine";
 
 interface Props {
   mdxSource: any;
@@ -23,6 +24,7 @@ const Writing: FunctionComponent<Props> = ({ mdxSource, mdxData }) => {
 
   return (
     <SiteLayout>
+      <ProgressLine />
       <Navbar />
 
       <div className="pt-3.5 sm:pt-9 pb-16">
