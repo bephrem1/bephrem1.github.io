@@ -15,7 +15,10 @@ const TableOfContents = ({ className }: { className?: string }) => {
   useEffect(() => {
     // Get all headings
     const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-    const headingData: HeadingData[] = Array.from(elements).map((heading) => ({
+    const headingData: HeadingData[] = Array.from(elements).filter(heading => {
+      const text = heading.textContent?.toLowerCase() || "";
+      return !text.includes("reference") && !text.includes("bibliography");
+    }).map((heading) => ({
       id: heading.id,
       text: heading.textContent || "",
       level: parseInt(heading.tagName[1]),
